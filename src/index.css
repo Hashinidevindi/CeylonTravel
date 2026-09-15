@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+.font-serif-hero,
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-headline,
+.font-body {
+  font-family: 'Public Sans', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f2ecf4;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbc4d2;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0B3D2E;
+}
